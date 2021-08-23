@@ -1,0 +1,331 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+
+:root {
+    --Principal: #fff;
+    --segundo: #000; 
+    --naranja: #ff4500;
+
+    --fuenteprincipal:'Bebas Neue', cursive;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--segundo); 
+       }
+
+/** textos **/
+
+h1 {
+    text-align: center;
+    color: var(--Principal);
+    font-size: 3.4rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.4rem;
+    color: var(--Principal);
+    font-family: var(--fuenteprincipal);
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--Principal);
+    font-family: var(--fuenteprincipal);
+}
+
+/** enlace **/
+
+a {
+    text-decoration: none;
+    color: var(--Principal);
+    font-size: 1.9rem;
+    margin-top: auto;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+/** Fondo **/
+.encabezado-header {
+    background-color: var(--segundo);
+    padding: 10rem 0rem;
+  
+}
+
+.inicio {
+    background-image: url(../imagenes/pexels-tima-miroshnichenko-5380651\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: center center;
+    height: 160vh;
+    min-height: 60rem;
+    background-size:cover;
+   
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+
+/** imagen **/
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30rem;
+}
+
+.contenedor-texto {
+    display:flex;
+    justify-content:flex-start;
+    margin-bottom: 75px;
+}
+
+.textin {
+    font-size: 5.4rem;
+    color: var(--Principal);
+    font-family: var(--fuenteprincipal);
+    text-align: right;
+}
+
+/** botonprincipal**/
+
+.botom1 {
+    background-color: rgba(236, 98, 18, 0.918);
+    width: 50%;
+    height: 10%;
+    border-radius: 1.9rem;
+    display: flex;
+    justify-content: center;
+    min-width: 50%;
+    font-family: 'Questrial', sans-serif;
+    
+}
+
+.botom1:hover {
+   background-color: #ff4500;
+}
+
+.redondel {
+    background-color:orangered;
+    padding: 2rem;
+    border-radius: 1.9rem;
+}
+
+/** Nueva imagen **/
+
+
+
+.nuevaimagen{
+    background-image: url(../imagenes/pexels-markus-spiske-330771.jpg);
+    background-repeat: no-repeat;
+    background-image:  cover;
+    background-size: cover;
+    background-position: center center;
+    height: 160vh;
+    min-height:50rem;
+}
+
+/** Responsive **/
+
+/** Nuevo contenedor **/
+
+.contenedor-lucho1 {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,69,0,1) 85%);
+    margin: 5rem 5rem 5rem 5rem;
+    height: 150vh;
+}
+
+@media (min-width: 320px) and (max-width: 380px) {
+     .contenedor-lucho1 {
+         height: 190vh;
+     }
+}
+@media (min-width: 576px) {
+    .contenedor-lucho1 {
+        height: 170vh;
+    }
+     
+}
+@media (min-width: 768px ) {
+    .contenedor-lucho1 {
+        height: 150vh;
+    }
+     
+}
+
+
+/** Titulos, parrafos del nuevo contenedor **/
+
+.lucho {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+    padding:.5rem;
+}
+
+
+.parrafo-lucho {
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: var(--Principal);
+    font-family: var(--fuenteprincipal);
+    text-align: center;
+}
+
+/** Responsive **/
+
+ @media (min-width: 368) {
+     .parrafo-lucho {
+         font-size: 1.5rem;
+     }
+      
+ }
+
+@media (min-width: 768px) {
+     .parrafo-lucho {
+        font-size: 2.1rem;
+     } 
+}
+
+
+/** Contenedor-nuevotexto (margin-top)**/
+
+.contenedor-nuevotexto {
+    margin-top: 10rem;
+}
+
+.parrafo-skills {
+    font-size: 1.7rem;
+    color: var(--Principal);
+    font-family: var(--fuenteprincipal);
+    text-align: center;
+}
+
+/** Responsive **/
+
+@media (min-width: 768px) {
+    .parrafo-skills {
+        font-size: 2.1rem;
+    }
+     
+}
+/** Bloques iconos **/
+
+.bloques {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bloque {
+    text-align: center;
+
+}
+
+/** Iconos html y css **/
+
+.html-imagen {
+    width: 20%;
+}
+
+@media (min-width:768px ) {
+    .html-imagen {
+     width: 20%;
+    } 
+}
+
+.css-imagen {
+    width: 40%;
+}
+
+@media (min-width:768px ) {
+     .css-imagen {
+         width: 60%;
+     }
+}
+
+/** Contenedor-iconos **/
+
+
+.contenedor-iconos {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4rem;
+    margin-top: 10rem;
+}
+
+@media (min-width:768px ) {
+     .contenedor-iconos {
+         gap: 6rem;
+     }
+}
+
+.lili {
+    text-align: center;
+}
+
+.bloque-imagen {
+    width: 3.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .bloque-imagen {
+        width: 14rem;
+    }
+}
+
+@media (min-width: 1140px) {
+     .bloque-imagen {
+         width: 15rem;
+     }
+}
+
+@media (min-width: 1400px ) {
+     .bloque-imagen {
+         width: 17rem;
+     }
+}
+/** Footer **/
+
+.final {
+    margin-top: 5rem;
+}
+
+.texto-footer {
+    text-align: center;
+    color: var(--naranja);
+    font-size: 3.2rem;
+    font-family: var(--fuenteprincipal);
+}
+
+
+
